@@ -1,0 +1,107 @@
+<DOCTYPE! HTML>
+    
+    
+    
+    <head>
+      
+    
+        <title> Gradients Radial and Linear</title>
+    
+        <style type="text/css">
+        
+            
+        
+            
+            
+        p{
+                
+                text-align: center;       /* To add the text in the Div Center */
+                margin-top: 57px;
+            }
+         
+ #div1{
+ 
+     
+    float: left;
+    width: 150px;                         /* Linear Gradient */
+    height: 150px;
+    margin: 10px;
+    margin-left: 160px;
+    display: inline-block;
+    vertical-align: middle;
+    box-shadow: 10px 10px 5px grey;
+    border: 1px solid black;
+    background: linear-gradient(to right,#DC143C,#006400);
+
+}
+
+            
+#div2{
+                
+    display: inline-block;                                     /*Circular Gradient*/
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-left: 65px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px grey;
+    background-image: radial-gradient(circle at 75px 25px,red,yellow,green);
+   
+}
+            
+            
+            #div3{
+                
+                float: right;                     /*Elliptical Gradient*/
+                
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    margin-right: 290px;
+    text-align: center;
+                box-shadow: 10px 10px 5px grey;
+    border: 1px solid black;
+    background-image: radial-gradient(at top ,red,yellow,green);
+   
+    
+}
+                
+            }
+            
+          
+            
+        </style>
+        
+        
+    </head>
+    
+    <body>    <!-- To Declare the Div's for the Gradients -->
+        
+        
+        <div class="container">
+    
+         <div id="div1">
+            
+            <p> Box1 </p>
+        
+        
+         </div>
+        
+        
+         <div id="div2">
+        
+            <p> Box2 </p>  
+        
+         </div>
+        
+        
+         <div id="div3">
+           <p> Box3 </p>
+        
+         </div>
+    
+    
+        </div>
+    
+    </body>
